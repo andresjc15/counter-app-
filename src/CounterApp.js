@@ -14,15 +14,15 @@ const CounterApp = ({ value  }) => {
         setCounter( (c) => c + 1 );
     }
 
-    const handleReset = (e) => {
-        // setCounter( (counter + 1) );
-        setCounter( (c) => 0 );
-    }
+    // const handleReset = (e) => {
+    //     // setCounter( (counter + 1) );
+    //     setCounter( (c) => 0 );
+    // }
 
-    const handleRemove = (e) => {
-        // setCounter( (counter + 1) );
-        setCounter( (c) => c - 1 );
-    }
+    // const handleRemove = (e) => {
+    //     // setCounter( (counter + 1) );
+    //     setCounter( (c) => c - 1 );
+    // }
 
     return (
         <>
